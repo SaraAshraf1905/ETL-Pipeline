@@ -29,7 +29,7 @@ dbt Tests
 
 The Airflow DAG contains three tasks:
 
-1. load_raw_data
+1. load_to_ods
 2. dbt_run
 3. dbt_test
 
