@@ -1,0 +1,12 @@
+services:
+  scheduler:
+    volumes:
+      - ../:/usr/local/airflow/crm_etl
+
+  dag-processor:
+    volumes:
+      - ../:/usr/local/airflow/crm_etl
+
+  api-server:
+    volumes:
+      - ../:/usr/local/airflow/crm_etl

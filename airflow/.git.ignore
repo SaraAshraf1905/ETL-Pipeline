@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# DuckDB generated database
+*.duckdb
+*.duckdb.wal
+
+# Astro
+.astro/
+
+# Environment / secrets
+.env
